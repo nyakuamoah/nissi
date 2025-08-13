@@ -16,7 +16,7 @@ document.addEventListener("DOMContentLoaded", function () {
   dateTimeDisplay.textContent = dateTimeText;
 
   // Load product data and update stats
-  fetch("/assets/json/products.json")
+  fetch("./assets/json/products.json")
     .then((res) => res.json())
     .then((products) => {
       const total = products.length;
