@@ -1,0 +1,37 @@
+[
+  {
+    "id": "grp001",
+    "name": "Generic Medicine",
+    "medicineCount": 22
+  },
+  {
+    "id": "grp002",
+    "name": "Diabetes",
+    "medicineCount": 32
+  },
+  {
+    "id": "grp003",
+    "name": "Cardiology",
+    "medicineCount": 18
+  },
+  {
+    "id": "grp004",
+    "name": "Pain Relief",
+    "medicineCount": 2
+  },
+  {
+    "id": "grp005",
+    "name": "Antibiotics",
+    "medicineCount": 2
+  },
+  {
+    "id": "grp006",
+    "name": "Chronic Care",
+    "medicineCount": 3
+  },
+  {
+    "id": "grp007",
+    "name": "Cold & Flu",
+    "medicineCount": 3
+  }
+]

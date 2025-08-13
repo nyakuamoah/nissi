@@ -1,0 +1,112 @@
+[
+  {
+    "name": "Cough Syrup",
+    "totalSold": 350,
+    "stockQty": 100,
+    "price": 12.0,
+    "unit": "ml",
+    "group": "Pain Relief",
+    "expiryDate": "2026-01-07",
+    "createdAt": "2025-01-01",
+    "medicineId": "M001"
+  },
+  {
+    "name": "Cetirizine",
+    "totalSold": 277,
+    "stockQty": 141,
+    "price": 7.5,
+    "unit": "tablet",
+    "group": "Cold & Flu",
+    "expiryDate": "2026-07-15",
+    "createdAt": "2025-01-01",
+    "medicineId": "M002"
+  },
+  {
+    "name": "Ciprofloxacin",
+    "totalSold": 295,
+    "stockQty": 119,
+    "price": 30.0,
+    "unit": "tablet",
+    "group": "Chronic Care",
+    "expiryDate": "2025-12-13",
+    "createdAt": "2025-01-01",
+    "medicineId": "M003"
+  },
+  {
+    "name": "Paracetamol",
+    "totalSold": 304,
+    "stockQty": 31,
+    "price": 5.0,
+    "unit": "tablet",
+    "group": "Pain Relief",
+    "expiryDate": "2027-05-22",
+    "createdAt": "2025-01-01",
+    "medicineId": "M004"
+  },
+  {
+    "name": "Amoxicillin 250",
+    "totalSold": 279,
+    "stockQty": 14,
+    "price": 18.5,
+    "unit": "tablet",
+    "group": "Pain Relief",
+    "expiryDate": "2027-07-11",
+    "createdAt": "2025-01-01",
+    "medicineId": "M005"
+  },
+  {
+    "name": "Ibuprofen",
+    "totalSold": 301,
+    "stockQty": 31,
+    "price": 8.0,
+    "unit": "tablet",
+    "group": "Pain Relief",
+    "expiryDate": "2027-01-27",
+    "createdAt": "2025-01-01",
+    "medicineId": "M006"
+  },
+  {
+    "name": "Metformin",
+    "totalSold": 288,
+    "stockQty": 147,
+    "price": 22.0,
+    "unit": "tablet",
+    "group": "Chronic Care",
+    "expiryDate": "2026-09-09",
+    "createdAt": "2025-01-01",
+    "medicineId": "M007"
+  },
+  {
+    "name": "Loratadine",
+    "totalSold": 262,
+    "stockQty": 81,
+    "price": 10.0,
+    "unit": "tablet",
+    "group": "Chronic Care",
+    "expiryDate": "2026-03-17",
+    "createdAt": "2025-01-01",
+    "medicineId": "M008"
+  },
+  {
+    "name": "Azithral 500",
+    "totalSold": 318,
+    "stockQty": 46,
+    "price": 45.0,
+    "unit": "tablet",
+    "group": "Cold & Flu",
+    "expiryDate": "2027-06-21",
+    "createdAt": "2025-01-01",
+    "medicineId": "M009"
+  },
+  {
+    "name": "Omeprazole",
+    "totalSold": 283,
+    "stockQty": 46,
+    "price": 15.0,
+    "unit": "tablet",
+    "group": "Antibiotics",
+    "expiryDate": "2026-05-30",
+    "createdAt": "2025-01-01",
+    "medicineId": "M010"
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "id": "U001",
+    "name": "Nana",
+    "image": "./assets/img/nana-dp.jpg",
+    "role": "Developer",
+    "email": "nana@nissi.com",
+    "lastLogin": "2025-01-14T22:45:04Z"
+  },
+  {
+    "id": "U002",
+    "name": "Dorinda",
+    "image": "./assets/img/dorina-dp.jpg",
+    "role": "Pharmacist",
+    "email": "dorinda@nissi.com",
+    "lastLogin": "2025-01-13T09:32:11Z"
+  },
+  {
+    "id": "U003",
+    "name": "Sumeiya",
+    "image": "./assets/img/sumeiya.jpg",
+    "role": "Pharmacist",
+    "email": "sumeiya@nissi.com",
+    "lastLogin": "2025-02-13T09:32:11Z"
+  }
+]

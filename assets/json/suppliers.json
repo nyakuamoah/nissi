@@ -1,0 +1,87 @@
+[
+  {
+    "name": "Ernest Chemists Ltd",
+    "rating": 5,
+    "accreditation": "FDA Ghana",
+    "contactPerson": "Kwame Nkrumah",
+    "phone": "+233 24 456 7890",
+    "email": "ernestchem@gh.com",
+    "medicines": [
+      {
+        "name": "Paracetamol",
+        "supplyHistory": [
+          {
+            "date": "2025-04-01",
+            "quantity": 500
+          },
+          {
+            "date": "2025-06-12",
+            "quantity": 200
+          }
+        ]
+      },
+      {
+        "name": "Amoxicillin",
+        "supplyHistory": [
+          {
+            "date": "2025-03-20",
+            "quantity": 300
+          },
+          {
+            "date": "2025-07-01",
+            "quantity": 150
+          }
+        ]
+      }
+    ],
+    "id": "sup001"
+  },
+  {
+    "name": "Kinapharma",
+    "rating": 4,
+    "accreditation": "GMP Certified",
+    "contactPerson": "Akosua Boateng",
+    "phone": "+233 20 987 6543",
+    "email": "info@kinapharma.com",
+    "medicines": [
+      {
+        "name": "Ibuprofen",
+        "supplyHistory": [
+          {
+            "date": "2025-05-10",
+            "quantity": 400
+          },
+          {
+            "date": "2025-06-18",
+            "quantity": 250
+          }
+        ]
+      }
+    ],
+    "id": "sup002"
+  },
+  {
+    "name": "M&G Pharmaceuticals",
+    "rating": 5,
+    "accreditation": "FDA Ghana",
+    "contactPerson": "Yaw Mensah",
+    "phone": "+233 26 123 4567",
+    "email": "mgpharma@ghmail.com",
+    "medicines": [
+      {
+        "name": "Ciprofloxacin",
+        "supplyHistory": [
+          {
+            "date": "2025-01-15",
+            "quantity": 350
+          },
+          {
+            "date": "2025-07-20",
+            "quantity": 180
+          }
+        ]
+      }
+    ],
+    "id": "sup003"
+  }
+]

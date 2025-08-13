@@ -1,0 +1,174 @@
+/* Colours */
+:root {
+  --clr-darkest: #50b748;
+  --clr-darker: #84cc7e;
+  --clr-dark: #b9e2b5;
+  --clr-light: #dcf0da;
+}
+
+/* Base font setup */
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f8f9fa;
+  color: #212529;
+  font-size: 0.95rem;
+}
+
+.nissi-logo img {
+  height: 40px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding-right: 60px;
+}
+
+/* Sidebar */
+#sidebar {
+  background-color: var(--clr-darkest) !important;
+  min-width: 250px;
+  height: 85vh;
+  position: sticky;
+  top: 15vh;
+}
+
+#sidebar h4 {
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: #fff;
+}
+
+#sidebarUser img {
+  border: 2px solid #fff;
+}
+
+#sidebarUser div {
+  line-height: 1.2;
+}
+
+#sidebar .nav-link {
+  font-size: 0.95rem;
+  font-weight: 500;
+}
+
+#sidebar .nav-link.active {
+  background-color: var(--clr-darker);
+  border-right: 4px solid var(--clr-light);
+}
+
+/* Header top bar */
+#topHeader {
+  background-color: #ffffff;
+  padding: 0.75rem 1rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+/* Header components */
+#topHeader input[type="search"] {
+  font-size: 0.9rem;
+  border-radius: 0.4rem;
+}
+
+#topHeader .fa-language {
+  color: #6c757d;
+  cursor: pointer;
+}
+
+/* Section headings */
+h5,
+h6 {
+  font-weight: 600;
+  color: #212529;
+}
+
+/* Card Styling */
+.card {
+  border-radius: 0.6rem;
+  padding: 1rem;
+  border: none;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+  background-color: var(--clr-light);
+}
+
+.card .card-title {
+  font-size: 0.9rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: var(--clr-darkest) !important;
+}
+
+/* Badge styles */
+.badge {
+  font-size: 0.75rem;
+  font-weight: 600;
+  padding: 0.4em 0.6em;
+  border-radius: 9999px;
+}
+
+/* Summary card text */
+.card h3,
+.card h4 {
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin: 0.5rem 0 0;
+}
+
+/* Alerts */
+.alert {
+  font-size: 0.9rem;
+  padding: 0.75rem 1rem;
+  border-radius: 0.5rem;
+}
+
+/* Tables */
+.table th {
+  background-color: #f1f3f5;
+  font-weight: 600;
+}
+
+.table td,
+.table th {
+  vertical-align: middle;
+  font-size: 0.9rem;
+}
+
+/* Buttons */
+.btn {
+  font-size: 0.875rem;
+  border-radius: 0.35rem;
+  font-weight: 500;
+}
+
+/* Inputs and forms */
+.form-control {
+  font-size: 0.9rem;
+  border-radius: 0.4rem;
+}
+
+.form-label {
+  font-weight: 600;
+  font-size: 0.85rem;
+}
+
+/* Modals */
+.modal-header {
+  border-bottom: none;
+}
+
+.modal-title {
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+/* Layout spacing */
+.container-fluid {
+  padding: 1.5rem;
+}
+
+.row.g-3,
+.row.g-4 {
+  row-gap: 1.5rem;
+  column-gap: 1.5rem;
+}

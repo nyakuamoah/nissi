@@ -1,0 +1,23 @@
+[
+  {
+    "id": "notif001",
+    "type": "stock",
+    "message": "Azithral 500 Tablet is low in stock.",
+    "date": "2025-07-29T08:45:00Z",
+    "read": false
+  },
+  {
+    "id": "notif002",
+    "type": "stock",
+    "message": "Allegra 120mg Tablet is low in stock.",
+    "date": "2025-07-28T14:10:00Z",
+    "read": false
+  },
+  {
+    "id": "notif003",
+    "type": "system",
+    "message": "Monthly inventory report available for download.",
+    "date": "2025-07-27T12:00:00Z",
+    "read": true
+  }
+]
