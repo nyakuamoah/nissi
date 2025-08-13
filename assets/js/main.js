@@ -37,7 +37,7 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 
   // Load user info (Dorinda)
-  fetch("/assets/json/users.json")
+  fetch("./assets/json/users.json")
     .then((res) => res.json())
     .then((users) => {
       const dorinda = users.find((u) => u.name.toLowerCase() === "dorinda");
