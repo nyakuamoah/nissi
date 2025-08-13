@@ -19,9 +19,9 @@ const pharmacistEl = document.getElementById("pharmacist");
 
 // Load JSON data
 Promise.all([
-  fetch("/assets/json/sales.json").then((res) => res.json()),
-  fetch("/assets/json/products.json").then((res) => res.json()),
-  fetch("/assets/json/users.json").then((res) => res.json()),
+  fetch("./assets/json/sales.json").then((res) => res.json()),
+  fetch("./assets/json/products.json").then((res) => res.json()),
+  fetch("./assets/json/users.json").then((res) => res.json()),
 ])
   .then(([sales, products, users]) => {
     salesData = sales;
@@ -113,14 +113,14 @@ function deleteTransaction() {
 }
 
 function saveToFile() {
-  fetch("/save-sales", {
+  fetch("./save-sales", {
     method: "POST",
     headers: { "Content-Type": "application/json" },
     body: JSON.stringify(salesData),
   })
     .then(() => {
       alert("Transaction updated successfully.");
-      window.location.href = "/sales.html";
+      window.location.href = "./sales.html";
     })
     .catch((err) => alert("Failed to save changes."));
 }

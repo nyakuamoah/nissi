@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   const form = document.getElementById("medicineDetailForm");
 
-  fetch("/assets/json/products.json")
+  fetch("./assets/json/products.json")
     .then((res) => res.json())
     .then((products) => {
       const med = products.find((m) => m.medicineId === medicineId);
@@ -56,7 +56,7 @@ document.addEventListener("DOMContentLoaded", () => {
         deleteBtn.addEventListener("click", () => {
           console.log(`Medicine ${medicineId} deleted (simulated)`);
           alert("Medicine deleted (simulated)");
-          window.location.href = "/inventory.html";
+          window.location.href = "./inventory.html";
         });
       }
     });

@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   groupTitle.textContent = `Group: ${groupName}`;
 
-  fetch("/assets/json/products.json")
+  fetch("./assets/json/products.json")
     .then((res) => res.json())
     .then((products) => {
       const groupMeds = products.filter((p) => p.group === groupName);

@@ -3,7 +3,7 @@
 const urlParams = new URLSearchParams(window.location.search);
 const supplierId = urlParams.get("id") || "sup001";
 
-fetch("/assets/json/suppliers.json")
+fetch("./assets/json/suppliers.json")
   .then((res) => res.json())
   .then((suppliers) => {
     const supplier = suppliers.find((s) => s.id === supplierId);

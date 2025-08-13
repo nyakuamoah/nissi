@@ -1,8 +1,8 @@
 // sales.js
 
-const salesUrl = "/assets/json/sales.json";
-const productsUrl = "/assets/json/products.json";
-const usersUrl = "/assets/json/users.json";
+const salesUrl = "./assets/json/sales.json";
+const productsUrl = "./assets/json/products.json";
+const usersUrl = "./assets/json/users.json";
 
 let salesData = [];
 let products = [];
@@ -111,7 +111,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const startDateInput = document.getElementById("startDate");
   const endDateInput = document.getElementById("endDate");
 
-  fetch("/assets/json/sales.json")
+  fetch("./assets/json/sales.json")
     .then((res) => res.json())
     .then((data) => {
       allSales = data;
@@ -146,7 +146,7 @@ document.addEventListener("DOMContentLoaded", () => {
           <td>${item.medicine}</td>
           <td>${item.quantity}</td>
           <td>
-            <a href="/transaction-details.html?id=${item.transactionId}" class="btn btn-sm btn-primary">View</a>
+            <a href="./transaction-details.html?id=${item.transactionId}" class="btn btn-sm btn-primary">View</a>
           </td>
         </tr>
       `;

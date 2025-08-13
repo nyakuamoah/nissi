@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const searchInput = document.getElementById("searchInput");
 
   // Load product data
-  fetch("/assets/json/products.json")
+  fetch("./assets/json/products.json")
     .then((res) => res.json())
     .then((data) => {
       let allProducts = data;
@@ -25,7 +25,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 }
               </td>
               <td>
-                <a href="/medicine-detail.html?medicineId=${
+                <a href="./medicine-detail.html?medicineId=${
                   item.medicineId
                 }" class="btn btn-sm btn-outline-primary">View</a>
               </td>

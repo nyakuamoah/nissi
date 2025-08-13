@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", () => {
   let groups = [];
 
   // Load existing groups
-  fetch("/assets/json/groups.json")
+  fetch("./assets/json/groups.json")
     .then((res) => res.json())
     .then((data) => {
       groups = data;
@@ -23,7 +23,7 @@ document.addEventListener("DOMContentLoaded", () => {
           <td>${group.name}</td>
           <td>${group.medicineCount}</td>
           <td>
-            <a href="/group-detail.html?group=${group.name}" class="btn btn-sm btn-outline-primary">View</a>
+            <a href="./group-detail.html?group=${group.name}" class="btn btn-sm btn-outline-primary">View</a>
           </td>
         </tr>
       `;

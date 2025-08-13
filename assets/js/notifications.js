@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 
     // Fallback: load from JSON file
-    return fetch("/assets/json/notifications.json")
+    return fetch("./assets/json/notifications.json")
       .then((res) => res.json())
       .then((data) => {
         localStorage.setItem(STORAGE_KEY, JSON.stringify(data));

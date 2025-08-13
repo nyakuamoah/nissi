@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const startDateInput = document.getElementById("startDate");
   const endDateInput = document.getElementById("endDate");
 
-  fetch("/assets/json/sales.json")
+  fetch("./assets/json/sales.json")
     .then((res) => res.json())
     .then((data) => {
       allSales = data;

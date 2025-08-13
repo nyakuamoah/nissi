@@ -5,7 +5,7 @@ const supplierTableBody = document.getElementById("supplierTableBody");
 let suppliersData = [];
 
 // Load supplier data from JSON file
-fetch("/assets/json/suppliers.json")
+fetch("./assets/json/suppliers.json")
   .then((res) => res.json())
   .then((data) => {
     suppliersData = data.map((supplier, index) => ({
@@ -25,7 +25,7 @@ function renderSuppliers(suppliers) {
       <td>${supplier.name}</td>
       <td>${"★".repeat(supplier.rating)}${"☆".repeat(5 - supplier.rating)}</td>
       <td>${supplier.medicines.map((m) => m.name).join(", ")}</td>
-      <td><a href="/supplier-details.html?id=${
+      <td><a href="./supplier-details.html?id=${
         supplier.id
       }" class="btn btn-sm btn-primary">View</a></td>
     `;

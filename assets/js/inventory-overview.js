@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const groupCount = document.getElementById("groupCount");
 
   // Load medicines
-  fetch("/assets/json/products.json")
+  fetch("./assets/json/products.json")
     .then((res) => res.json())
     .then((data) => {
       medCount.textContent = data.length;
@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", () => {
     });
 
   // Load groups
-  fetch("/assets/json/groups.json")
+  fetch("./assets/json/groups.json")
     .then((res) => res.json())
     .then((groups) => {
       groupCount.textContent = groups.length;
